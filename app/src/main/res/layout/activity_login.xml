@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#750505"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/asul"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/cinemaville"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:fontFamily="@font/asul"
+        android:text="@string/cinemaville"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/imgcinemaville"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/cinemaville"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/cinemaville2" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgcinemaville"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-25dp"
+        android:fontFamily="@font/asul"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="33sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:fontFamily="@font/asul"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:textSize="17sp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="15dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:fontFamily="@font/asul"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:textSize="17sp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="15dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="22dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#423D3D"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/asul"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/opsi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-12dp"
+        android:fontFamily="@font/mmedium"
+        android:text="@string/opsi2"
+        android:textColor="@color/material_dynamic_neutral70"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/opsi2"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/google"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_below="@id/opsi2"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/facebook"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nothave"
+        android:fontFamily="@font/mmedium"
+        android:layout_below="@id/google"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/material_dynamic_neutral_variant60"
+        android:textSize="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="58dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_below="@id/google"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/asul"
+        android:textSize="11dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="58dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

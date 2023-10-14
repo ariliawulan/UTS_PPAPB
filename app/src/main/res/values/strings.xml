@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="welcome">Welcome To</string>
+    <string name="cinemaville">CinemaVille</string>
+    <string name="register">Register</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="opsi2">or sign in with</string>
+    <string name="nothave">Dont Have a CinemaVille Account yet?</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="halo">Hello, </string>
+    <string name="topmovie">Top Movie</string>
+    <string name="details">Details Movie</string>
+    <string name="sherina">Petualangan Sherina 2</string>
+    <string name="sajadah">Air Mata di Ujung Sajadah</string>
+    <string name="rembulan">Rembulan Tenggelam Di Wajahmu</string>
+    <string name="kitacerita">Nanti Kita Cerita Tentang Hari Ini</string>
+
+    <string name="directsherina">Director: Riri Riza</string>
+    <string name="story">Storyline</string>
+    <string name="storysherina">In Sherina Adventure 2, journalist Sherina mission to report on environmental issues leads her to a reunion with old friend Sadam. Together, they rescue a stolen orangutan, rekindling their friendship.</string>
+
+    <string name="directorsajadah">Director: Key Manungsong</string>
+    <string name="storysajadah">"Air Mata di Ujung Sajadah" is one of the latest Indonesian films that carries the theme of family drama. Directed by Key Mangunsong, the film tells the story of a mother who longs for her child to return after being raised by adoptive parents.</string>
+
+    <string name="directorrembulan">Director: Danial Rifki</string>
+    <string name="storyrembulan">Starting with the story of a wealthy 60-year-old entrepreneur, Ray (Arifin Putra), on his deathbed, questioning lifes purpose. A mysterious man guides him through lifes pivotal moments, addressing fundamental questions.</string>
+
+    <string name="directorkitacerita">Angga Dwimas Sasongko</string>
+    <string name="storykitacerita">Angkasa, Aurora, and Awan are siblings in what appears to be a happy family. After Awan significant failure, she meets Kale, an eccentric guy who introduces her to new life experiences. Awan changed behavior creates tension with their parents.</string>
+
+    <string name="methodpayment">Payment method</string>
+    <string name="bioskop">Pilih Bioskop</string>
+    <string name="seat">Pilih Seat</string>
+    <string name="tanggal">Pilih Tanggal</string>
+    <string name="waktu">Pilih Waktu</string>
+</resources>
